@@ -11,10 +11,7 @@ enum Type {
    
   f.e. 
   
-		Type type = Type.Disease;
-		String name = "aaa";
-    
-    http://localhost:8080/DMaker/plain?item=Disease&searchTextName=aaa
+  1. http://localhost:8080/DMaker/plain?item=Disease&searchTextName=aaa    
     
     result:
     
@@ -29,3 +26,28 @@ enum Type {
      <a href="http://www.diseasemapper.de:8080/DMaker/plain?Disease=H00257">Achalasia-Addisonianism-Alacrima Synrrome</a>
   </li>
  </ul>
+ 
+ 2.http://diseasemapper.de:8080/dsmap/plain?itm=D&id=G3
+ <table>
+<Name>
+<list>
+<item><a href="http://diseasemapper.de:8080/dsmap/plain?itm=D&id=G30">Alzheimer Disease</a><br/></item></list>
+</Name>
+...
+<DBase>
+<list>
+...
+<item>
+<icd10>
+<list>
+    <item><a href="http://apps.who.int/classifications/icd10/browse/2010/en#/G30" target="_blank">G30</a></item>
+ </list>
+</icd10>
+</item>
+...
+</list>
+</DBase>
+</table>
+
+ 
+ 
