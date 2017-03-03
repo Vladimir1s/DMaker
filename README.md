@@ -11,7 +11,7 @@ enum Type {
    
   f.e. 
   
-  1. http://www.diseasemapper.de:8080/DMaker/plain?item=Disease&searchTextName=aaa    
+1. http://www.diseasemapper.de:8080/DMaker/plain?item=Disease&searchTextName=aaa    
     
     result:
     
@@ -27,7 +27,10 @@ enum Type {
   </li>
  </ul>
  
- 2.http://diseasemapper.de:8080/dsmap/plain?itm=D&id=G3
+2.http://diseasemapper.de:8080/dsmap/plain?itm=D&id=G3
+    
+    result:
+    
  <table>
 <Name>
 <list>
