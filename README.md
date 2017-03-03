@@ -11,7 +11,7 @@ enum Type {
    
   f.e. 
   
-  1. http://localhost:8080/DMaker/plain?item=Disease&searchTextName=aaa    
+  1. http://www.diseasemapper.de:8080/DMaker/plain?item=Disease&searchTextName=aaa    
     
     result:
     
